@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (<nav className="sticky top-0 z-50 shadow-md">
   
-  <div className="flex justify-around items-center px-10 py-4">
+  <div className="flex justify-around items-center container mx-auto py-4">
     
     <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
       <img src={isOpen ? Close : Menu} alt="" className="w-7 h-7" />

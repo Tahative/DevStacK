@@ -1,8 +1,8 @@
 import banner from "../assets/banner-stack.png";
 const Banner = () => {
     return (
-        <div className="flex flex-col md:flex-row justify-around items-center py-12 ">
-        <div>
+        <div className="flex flex-col md:flex-row justify-around items-center py-12 container mx-auto ">
+        <div className="">
           <h1 className="text-center md:text-left text-6xl font-extrabold">Build Your Ideal</h1>
           <h1 className="text-center md:text-left text-6xl font-extrabold bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">Development Stack</h1>
           <p className="text-[18px] font-normal text-center md:text-left  md:w-2xl  text-[#475569] py-5">
