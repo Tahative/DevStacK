@@ -6,7 +6,7 @@ import Logo from "../assets/logo-text.png";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  return (<nav className="sticky top-0 z-50 bg-[#F1F5F9] shadow-md">
+  return (<nav className="sticky top-0 z-50 shadow-md">
   
   <div className="flex justify-around items-center px-10 py-4">
     
