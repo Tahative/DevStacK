@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Menu from "../assets/menu-icon.svg";
 import Close from "../assets/close-icon.svg";
+import Logo from "../assets/logo-text.png";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Nav = () => {
       <img src={isOpen ? Close : Menu} alt="" className="w-7 h-7" />
     </button>
 
-    <img src="./src/assets/logo-text.png" alt="" />
+    <img src={Logo} alt="" />
 
     <ul className="hidden md:flex gap-10 text-[20px] font-medium">
       <li className="text-[#D91B7E]">Home</li>

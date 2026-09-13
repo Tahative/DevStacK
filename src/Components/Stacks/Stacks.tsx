@@ -1,5 +1,6 @@
 import { use } from "react";
 import type { Stack } from "../../types/stackType";
+import AvailableStacks from "../AvailableStacks";
 
 interface StacksProps {
   stacksPromise: Promise<Stack[]>;
@@ -10,7 +11,7 @@ const Stacks = ({ stacksPromise }: StacksProps) => {
   console.log(stacks, "stacks");
   return (
     <div>
-
+      <AvailableStacks/>
     </div>
   );
 };

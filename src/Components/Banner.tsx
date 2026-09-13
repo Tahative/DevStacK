@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="flex md:flex justify-around items-center  py-12 bg-[F1F5F9]">
+        <div className="sm:flex flex-col md:flex justify-around items-center  py-12 bg-[F1F5F9]">
         <div>
           <h1 className="text-center md:text-left text-6xl font-extrabold">Build Your Ideal</h1>
           <h1 className="text-center md:text-left text-6xl font-extrabold bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">Development Stack</h1>
