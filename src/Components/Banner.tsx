@@ -12,10 +12,10 @@ const Banner = () => {
             <br className='hidden md:block' /> next project.
           </p>
           <div className=" flex justify-center md:justify-start gap-3 mt-4">
-            <button className="btn The class bg-linear-to-r from-[#F97316] to-[#EC4899] rounded-lg text-sm text-white mr-3">
+            <button className="btn The class bg-linear-to-r from-[#F97316] to-[#EC4899] rounded-lg text-sm text-white border-0 mr-3">
             Explore Technologies
           </button>
-          <button className="btn bg-white rounded-lg text-sm">Learn More</button>
+          <button className="btn bg-white rounded-lg text-sm border-0">Learn More</button>
           </div>
 
         </div>
