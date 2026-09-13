@@ -1,6 +1,7 @@
 import React from 'react';
 
-const AvailableStacks = () => {
+const AvailableStacks = ({stacks}) => {
+    console.log();
     return (
         <div>
             

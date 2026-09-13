@@ -11,7 +11,7 @@ const Stacks = ({ stacksPromise }: StacksProps) => {
   console.log(stacks, "stacks");
   return (
     <div>
-      <AvailableStacks/>
+      <AvailableStacks stacks={stacks}/>
     </div>
   );
 };
