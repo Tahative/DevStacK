@@ -1,4 +1,4 @@
-
+import banner from "../assets/banner-stack.png";
 const Banner = () => {
     return (
         <div className="sm:flex flex-col md:flex justify-around items-center  py-12 bg-[F1F5F9]">
@@ -20,7 +20,7 @@ const Banner = () => {
 
         </div>
         <div>
-          <img className=" " src="./src/assets/banner-stack.png" alt="" />
+          <img className=" " src={banner} alt="" />
         </div>
       </div>
     );
