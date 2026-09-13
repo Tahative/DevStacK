@@ -28,7 +28,7 @@ const Nav = () => {
       <button className="text-[20px] font-medium text-[#475569]">
         Sign In
       </button>
-      <button className="btn bg-[#D91B7E] rounded-full text-white text-[20px] font-medium py-6 px-6">
+      <button className="btn bg-[#D91B7E] rounded-full border-0 text-white text-[20px] font-medium py-6 px-6">
         Sign Up
       </button>
     </div>
